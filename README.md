@@ -9,4 +9,4 @@
 - ローカルストレージ保存
 
 ## URL
-https://arai952.github.io/Task-app/
+https://owakoshi.github.io/Task-app/
