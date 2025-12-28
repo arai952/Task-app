@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>やること</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="app">
+    <h1 class="logo">🔥😡</h1><h2>いますぐやれ！！</h2><h1 class="logo">😡🔥</h1>
+    <div class="container">
+      <div class="input-area">
+        <input id="taskInput" type="text" placeholder="やることを書く">
+        <select id="category">
+
+          <option value="仕事">仕事</option>
+          <option value="私用">私用</option>
+          <option value="学習">学習</option>
+        </select>
+        
+        <select id="priority">
+          <option value="3">高</option>
+          <option value="2">中</option>
+          <option value="1">低</option>
+        </select>
+
+        <button id="addBtn">追加</button>
+      </div>
+
+      <ul id="taskList"></ul>
+    </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
